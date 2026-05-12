@@ -10,6 +10,7 @@ def _engine_kwargs(db_url: str) -> dict:
 
 
 engine = create_engine(settings.database_url, **_engine_kwargs(settings.database_url))
+engine = create_engine(settings.database_url, echo=False)
 
 
 def init_db() -> None:

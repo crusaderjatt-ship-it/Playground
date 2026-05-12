@@ -19,6 +19,13 @@ cp .env.example .env
 ```
 
 ## Local development
+## Stack
+- Backend: FastAPI
+- Frontend: React + Vite + TypeScript
+- Storage: SQLite (SQLModel)
+- Jobs: APScheduler
+
+## Quick start
 ### Backend
 ```bash
 cd backend
