@@ -2,7 +2,7 @@
 
 AI-powered web app that discovers trending AI tools and auto-generates viral X content.
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_GITHUB_USERNAME/ai-trend-radar&env=DATABASE_URL,OPENAI_MODEL,SCHEDULER_CRON,X_BEARER_TOKEN,REDDIT_CLIENT_ID,REDDIT_CLIENT_SECRET,YOUTUBE_API_KEY,NEWS_API_KEY&envDescription=Set%20Postgres%20and%20optional%20source%20API%20credentials&project-name=ai-trend-radar&repository-name=ai-trend-radar)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new)
 
 ## Stack
 - Frontend: React + Vite + TypeScript
@@ -44,7 +44,7 @@ npm run dev
 
 ## Deploy to Vercel
 1. Push this repo to GitHub.
-2. Click the **Deploy to Vercel** button above (or import manually in Vercel).
+2. Click the **Deploy to Vercel** button above, then choose this GitHub repository during import (or import manually in Vercel).
 3. Confirm root path is `/`.
 4. Set environment variables from `.env.example` in Vercel Project Settings.
 5. Deploy — Vercel uses `vercel.json` to:
