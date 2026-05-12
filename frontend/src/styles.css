@@ -1,0 +1,26 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+}
+body {
+  margin: 0;
+  background: #0b1020;
+  color: #e8efff;
+}
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.card {
+  background: #131a33;
+  border: 1px solid #2a3567;
+  border-radius: 12px;
+  padding: 14px;
+}
